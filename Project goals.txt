@@ -1,0 +1,30 @@
+Project goals:
+1. track current status of patient waiting list
+2. Analyze historical monthly trend of waiting list in inpatient and outpatient categories.
+3. Detailed speciality level and age profile analysis.
+
+Data scope:
+2018-2021
+
+Metrics Required:
+1. Average and median waiting list.
+2. Current total wait list.
+
+Views required:
+1. Summary Page
+2. Detailed Page for Granular analysis.
+
+Steps:
+## Check all the csv files for column count and column name similarity.
+
+## Use the folder connector to load data into power BI.
+
+## Transform the data using power query editor. Check the column types and count the rows.
+
+## Do neccessary checks for appending the datasets.
+
+## Append two tables.
+
+## Make a bucket for speciality and load it then map it in data model.
+
+## Design bluprint of the dashboard.
